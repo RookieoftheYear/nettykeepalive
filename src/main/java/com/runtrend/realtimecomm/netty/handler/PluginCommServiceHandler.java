@@ -42,7 +42,6 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
 
         ctx.fireChannelActive();
 
-//        log.debug("{} is Connecting", ctx.channel().remoteAddress());
 
     }
 
