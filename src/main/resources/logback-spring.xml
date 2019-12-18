@@ -1,0 +1,106 @@
+<configuration>
+
+    <property name="PROJECT" value="real-time-comm"/>
+    <property name="ROOT" value="logs/${PROJECT}/"/>
+    <property name="FILESIZE" value="50MB"/>
+    <property name="MAXHISTORY" value="20"/>
+    <property name="TOTALSIZECAP" value="1GB"/>
+
+    <!-- 彩色日志依赖的渲染类 -->
+    <conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter"/>
+    <conversionRule conversionWord="wex" converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter"/>
+    <conversionRule conversionWord="wEx" converterClass="org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter"/>
+
+    <!-- 控制台日志打印格式，彩色版，带行号 -->
+    <property name="CONSOLE_LOG_PATTERN" value="${CONSOLE_LOG_PATTERN:-%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(: %L){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}}"/>
+    <!-- 日志文件打印格式，普通版 -->
+    <property name="FILE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } --- [%t] %-40.40logger{39} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
+
+    <!-- 控制台打印 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="utf-8">
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+        </encoder>
+        <!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+            <!--<level>WARN</level>-->
+            <!--<onMatch>ACCEPT</onMatch>-->
+            <!--<onMismatch>DENY</onMismatch>-->
+        <!--</filter>-->
+    </appender>
+
+    <!--  注意1：鉴于logback比log4j性能更好，配置更方便(log4j多年未更新了)，在项目中必须使用LoggerFactory.getLogger()进行日志记录，禁止使用Logger.getLogger()记录日志，否则会导致日志丢失  -->
+    <!--  注意2：我们准备了三套日志收集模式，以应对不同的变化：
+         （1）按天收集模式：日志按照日期进行收集，确定每日大约的日志量以后可以采取这种模式；
+         （2）固定窗口模式：固定要收集的日志文件大小，而不考虑收集日志的时间，这样可以防止请求波动导致的日志猛增，更加保守一点，缺点是文件名不能包含日期以及对于不频繁服务收集的过于久远的日志；
+         （3）时间限定+日志大小限定模式：这样的好处是可以兼顾（1）与（2）的收集特点，如果超过固定大小或者达到指定日期就触发日志滚动。-->
+
+    <!-- 按天收集模式 -->
+    <!--    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+    <!--        <file>${ROOT}/myapp.log</file>-->
+    <!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+    <!--            &lt;!&ndash; daily rollover &ndash;&gt;-->
+    <!--            <fileNamePattern>${ROOT}/%d{yyyy-MM-dd}.log</fileNamePattern>-->
+
+    <!--            &lt;!&ndash; keep 20 days' worth of history capped at 1GB total size &ndash;&gt;-->
+    <!--            <maxHistory>${MAXHISTORY}</maxHistory>-->
+    <!--            <totalSizeCap>${TOTALSIZECAP}</totalSizeCap>-->
+
+    <!--        </rollingPolicy>-->
+
+    <!--        <encoder>-->
+    <!--            <pattern>${FILE_LOG_PATTERN}</pattern>-->
+    <!--        </encoder>-->
+    <!--    </appender>-->
+
+
+
+    <!--按照固定窗口模式生成日志文件-->
+    <!--        <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+    <!--            <file>${ROOT}/myapp.log</file>-->
+
+    <!--            <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">-->
+    <!--                <fileNamePattern>${ROOT}/myapp-%i.log</fileNamePattern>-->
+    <!--                <minIndex>1</minIndex>-->
+    <!--                <maxIndex>${MAXHISTORY}</maxIndex>-->
+    <!--            </rollingPolicy>-->
+
+    <!--            <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">-->
+    <!--                <MaxFileSize>${FILESIZE}</MaxFileSize>-->
+    <!--            </triggeringPolicy>-->
+
+    <!--            <encoder charset="utf-8">-->
+    <!--                <pattern>${FILE_LOG_PATTERN}</pattern>-->
+    <!--            </encoder>-->
+    <!--        </appender>-->
+
+
+
+    <!-- 时间限定+日志大小限定，双重限定，更加灵活 -->
+    <!-- 每个文件最多50M，最多保存20天的历史记录，最大不能超过2GB -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${ROOT}/netty.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>${ROOT}/%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- each file should be at most 50MB, keep 20 days worth of history, but at most 1GB -->
+            <maxFileSize>${FILESIZE}</maxFileSize>
+            <maxHistory>${MAXHISTORY}</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+
+        <encoder charset="utf-8">
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.runtrend.realtimecomm" level="DEBUG"
+            additivity="false">
+        <appender-ref ref="FILE" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>

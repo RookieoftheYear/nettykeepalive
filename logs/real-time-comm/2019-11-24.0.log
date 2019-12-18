@@ -1,0 +1,564 @@
+2019-11-24 14:57:47.364  INFO 113756 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 113756 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 14:57:47.374 DEBUG 113756 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 14:57:47.374  INFO 113756 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 14:57:48.624  INFO 113756 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.84 seconds (JVM running for 4.06)
+2019-11-24 14:57:51.060  INFO 113756 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 14:58:33.000 DEBUG 113756 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:56220
+2019-11-24 14:58:33.000 DEBUG 113756 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : channelActive: Binded Channel Count is 1
+2019-11-24 15:00:42.138  INFO 106364 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 106364 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 15:00:42.138 DEBUG 106364 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 15:00:42.138  INFO 106364 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 15:00:42.946  INFO 106364 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.17 seconds (JVM running for 3.131)
+2019-11-24 15:00:45.369  INFO 106364 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 15:01:19.759 DEBUG 106364 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:56310
+2019-11-24 15:01:19.759 DEBUG 106364 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : channelActive: Binded Channel Count is 1
+2019-11-24 15:01:19.839 DEBUG 106364 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Registered Successfully ===
+2019-11-24 15:21:19.985 DEBUG 106364 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:56467
+2019-11-24 15:21:19.986 DEBUG 106364 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : channelActive: Binded Channel Count is 3
+2019-11-24 15:21:20.070 DEBUG 106364 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB  Registered Before ===
+2019-11-24 20:20:17.916  INFO 129572 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 129572 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 20:20:17.922 DEBUG 129572 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 20:20:17.923  INFO 129572 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 20:20:18.757  INFO 129572 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.344 seconds (JVM running for 3.229)
+2019-11-24 20:20:21.090  INFO 129572 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 20:21:16.179 DEBUG 129572 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:62347
+2019-11-24 20:21:16.180 DEBUG 129572 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : channelActive: Binded Channel Count is 0
+2019-11-24 20:21:16.268 DEBUG 129572 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 20:22:27.908 DEBUG 129572 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:62430
+2019-11-24 20:22:27.908 DEBUG 129572 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : channelActive: Binded Channel Count is 1
+2019-11-24 20:22:28.092 DEBUG 129572 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : === TESTMACID2 Register Successfully ===
+2019-11-24 20:29:18.969  INFO 127436 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 127436 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 20:29:18.969 DEBUG 127436 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 20:29:18.970  INFO 127436 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 20:29:19.997  INFO 127436 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.427 seconds (JVM running for 3.341)
+2019-11-24 20:29:22.393  INFO 127436 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 20:29:58.962  INFO 102912 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 102912 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 20:29:58.963 DEBUG 102912 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 20:29:58.963  INFO 102912 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 20:29:59.943  INFO 102912 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.384 seconds (JVM running for 3.288)
+2019-11-24 20:30:02.317  INFO 102912 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 20:43:09.704  INFO 128312 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 128312 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 20:43:09.707 DEBUG 128312 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 20:43:09.708  INFO 128312 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 20:43:10.543  INFO 128312 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.221 seconds (JVM running for 3.06)
+2019-11-24 20:43:12.877  INFO 128312 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 20:43:51.627  INFO 128148 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 128148 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 20:43:51.631 DEBUG 128148 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 20:43:51.631  INFO 128148 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 20:43:52.635  INFO 128148 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.397 seconds (JVM running for 3.275)
+2019-11-24 20:43:54.882  INFO 128148 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 20:44:24.348 DEBUG 128148 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:62982 is Connecting
+2019-11-24 20:44:24.481 DEBUG 128148 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 20:44:26.462 DEBUG 128148 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:62983 is Connecting
+2019-11-24 20:44:26.558 DEBUG 128148 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : === TESTMACID2 Register Successfully ===
+2019-11-24 20:55:34.305 DEBUG 128148 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:63151 is Connecting
+2019-11-24 20:55:34.398 DEBUG 128148 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to {} Fail
+
+io.netty.handler.codec.EncoderException: java.lang.IllegalStateException: unexpected message type: CompositeByteBuf
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106)
+	at io.netty.channel.CombinedChannelDuplexHandler.write(CombinedChannelDuplexHandler.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1900(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1081)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1128)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1070)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:446)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: unexpected message type: CompositeByteBuf
+	at io.netty.handler.codec.http.HttpObjectEncoder.encode(HttpObjectEncoder.java:124)
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88)
+	... 13 common frames omitted
+
+2019-11-24 21:12:10.121  INFO 121272 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 121272 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 21:12:10.124 DEBUG 121272 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 21:12:10.124  INFO 121272 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 21:12:10.948  INFO 121272 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.21 seconds (JVM running for 3.013)
+2019-11-24 21:12:13.337  INFO 121272 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 21:14:15.652 DEBUG 121272 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:63943 is Connecting
+2019-11-24 21:19:09.155  INFO 126640 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 126640 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 21:19:09.158 DEBUG 126640 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 21:19:09.158  INFO 126640 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 21:19:10.105  INFO 126640 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.269 seconds (JVM running for 2.986)
+2019-11-24 21:19:12.532  INFO 126640 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 21:19:17.489 DEBUG 126640 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:64112 is Connecting
+2019-11-24 21:25:16.516  INFO 127500 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 127500 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 21:25:16.519 DEBUG 127500 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 21:25:16.519  INFO 127500 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 21:25:17.317  INFO 127500 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.185 seconds (JVM running for 3.003)
+2019-11-24 21:25:19.699  INFO 127500 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 21:25:20.859 DEBUG 127500 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:64277 is Connecting
+2019-11-24 21:25:20.874 ERROR 127500 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : null
+
+java.lang.NullPointerException: null
+	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
+	at com.runtrend.realtimecomm.netty.ChannelRepository.get(ChannelRepository.java:28)
+	at com.runtrend.realtimecomm.netty.handler.PluginCommServiceHandler.lambda$channelRead0$3(PluginCommServiceHandler.java:59)
+	at java.util.Optional.map(Optional.java:215)
+	at com.runtrend.realtimecomm.netty.handler.PluginCommServiceHandler.channelRead0(PluginCommServiceHandler.java:58)
+	at com.runtrend.realtimecomm.netty.handler.PluginCommServiceHandler.channelRead0(PluginCommServiceHandler.java:23)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 21:26:23.061  INFO 122860 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 122860 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 21:26:23.065 DEBUG 122860 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 21:26:23.065  INFO 122860 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 21:26:23.949  INFO 122860 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.298 seconds (JVM running for 3.331)
+2019-11-24 21:26:26.299  INFO 122860 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 21:26:38.474 DEBUG 122860 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:64370 is Connecting
+2019-11-24 21:26:38.559 DEBUG 122860 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 21:28:47.354  INFO 130472 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 130472 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 21:28:47.357 DEBUG 130472 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 21:28:47.358  INFO 130472 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 21:28:48.184  INFO 130472 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.208 seconds (JVM running for 3.113)
+2019-11-24 21:28:50.561  INFO 130472 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 21:29:01.563 DEBUG 130472 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:64419 is Connecting
+2019-11-24 21:29:01.579 DEBUG 130472 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 23341 Register Successfully ===
+2019-11-24 21:29:38.626 DEBUG 130472 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:64424 is Connecting
+2019-11-24 21:29:38.632 ERROR 130472 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : null
+
+java.lang.NullPointerException: null
+	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
+	at com.runtrend.realtimecomm.netty.ChannelRepository.get(ChannelRepository.java:28)
+	at com.runtrend.realtimecomm.netty.handler.PluginCommServiceHandler.lambda$channelRead0$7(PluginCommServiceHandler.java:74)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at com.runtrend.realtimecomm.netty.handler.PluginCommServiceHandler.channelRead0(PluginCommServiceHandler.java:73)
+	at com.runtrend.realtimecomm.netty.handler.PluginCommServiceHandler.channelRead0(PluginCommServiceHandler.java:23)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 21:30:36.085 DEBUG 130472 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:64430 is Connecting
+2019-11-24 21:30:36.086 DEBUG 130472 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : === 23341  Registered Before ===
+2019-11-24 21:31:04.190 DEBUG 130472 --- [nioEventLoopGroup-3-4] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:64434 is Connecting
+2019-11-24 21:31:04.194 ERROR 130472 --- [nioEventLoopGroup-3-4] c.r.r.n.h.PluginCommServiceHandler       : refCnt: 0, decrement: 1
+
+io.netty.util.IllegalReferenceCountException: refCnt: 0, decrement: 1
+	at io.netty.buffer.AbstractReferenceCountedByteBuf.release0(AbstractReferenceCountedByteBuf.java:100)
+	at io.netty.buffer.AbstractReferenceCountedByteBuf.release(AbstractReferenceCountedByteBuf.java:84)
+	at io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpMessage.release(HttpObjectAggregator.java:386)
+	at io.netty.util.ReferenceCountUtil.release(ReferenceCountUtil.java:88)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:112)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 21:31:04.195 DEBUG 130472 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to {} Fail
+
+io.netty.handler.codec.EncoderException: java.lang.IllegalStateException: unexpected message type: CompositeByteBuf
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106)
+	at io.netty.channel.CombinedChannelDuplexHandler.write(CombinedChannelDuplexHandler.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1900(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1081)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1128)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1070)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:446)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: unexpected message type: CompositeByteBuf
+	at io.netty.handler.codec.http.HttpObjectEncoder.encode(HttpObjectEncoder.java:124)
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88)
+	... 13 common frames omitted
+
+2019-11-24 21:32:58.247  INFO 130292 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 130292 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 21:32:58.250 DEBUG 130292 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 21:32:58.250  INFO 130292 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 21:32:59.068  INFO 130292 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.218 seconds (JVM running for 3.065)
+2019-11-24 21:33:01.437  INFO 130292 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 21:33:16.835 DEBUG 130292 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:64521 is Connecting
+2019-11-24 21:33:16.915 DEBUG 130292 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 21:33:23.662 DEBUG 130292 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:64560 is Connecting
+2019-11-24 21:33:23.752 DEBUG 130292 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : === TESTMACID2 Register Successfully ===
+2019-11-24 21:33:39.986 DEBUG 130292 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:64599 is Connecting
+2019-11-24 21:33:40.086 ERROR 130292 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : refCnt: 0, decrement: 1
+
+io.netty.util.IllegalReferenceCountException: refCnt: 0, decrement: 1
+	at io.netty.buffer.AbstractReferenceCountedByteBuf.release0(AbstractReferenceCountedByteBuf.java:100)
+	at io.netty.buffer.AbstractReferenceCountedByteBuf.release(AbstractReferenceCountedByteBuf.java:84)
+	at io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpMessage.release(HttpObjectAggregator.java:386)
+	at io.netty.util.ReferenceCountUtil.release(ReferenceCountUtil.java:88)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:112)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 21:33:40.086 DEBUG 130292 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to {} Fail
+
+io.netty.handler.codec.EncoderException: java.lang.IllegalStateException: unexpected message type: CompositeByteBuf
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1900(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1081)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1128)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1070)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:446)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: unexpected message type: CompositeByteBuf
+	at io.netty.handler.codec.http.HttpObjectEncoder.encode(HttpObjectEncoder.java:124)
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88)
+	... 12 common frames omitted
+
+2019-11-24 21:41:35.499  INFO 128740 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 128740 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 21:41:35.502 DEBUG 128740 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 21:41:35.502  INFO 128740 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 21:41:36.617  INFO 128740 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.597 seconds (JVM running for 3.816)
+2019-11-24 21:41:39.213  INFO 128740 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 21:41:47.129 DEBUG 128740 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:64980 is Connecting
+2019-11-24 21:41:47.290 DEBUG 128740 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 21:41:49.625 DEBUG 128740 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:64981 is Connecting
+2019-11-24 21:41:49.739 DEBUG 128740 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : === TESTMACID2 Register Successfully ===
+2019-11-24 21:42:07.446 DEBUG 128740 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:65019 is Connecting
+2019-11-24 21:42:07.571 DEBUG 128740 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to {} Fail
+
+io.netty.handler.codec.EncoderException: java.lang.IllegalStateException: unexpected message type: CompositeByteBuf
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1900(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1081)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1128)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1070)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:446)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: unexpected message type: CompositeByteBuf
+	at io.netty.handler.codec.http.HttpObjectEncoder.encode(HttpObjectEncoder.java:124)
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88)
+	... 12 common frames omitted
+
+2019-11-24 21:45:20.107 ERROR 128740 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 21:45:20.109 DEBUG 128740 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 2
+2019-11-24 21:52:35.073  INFO 128268 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 128268 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 21:52:35.077 DEBUG 128268 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 21:52:35.077  INFO 128268 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 21:52:35.941  INFO 128268 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.277 seconds (JVM running for 3.363)
+2019-11-24 21:52:38.325  INFO 128268 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 21:55:47.473 DEBUG 128268 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:65318 is Connecting
+2019-11-24 21:55:47.581 DEBUG 128268 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 21:59:11.147  INFO 130212 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 130212 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 21:59:11.151 DEBUG 130212 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 21:59:11.152  INFO 130212 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 21:59:12.096  INFO 130212 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.351 seconds (JVM running for 3.349)
+2019-11-24 21:59:14.583  INFO 130212 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 21:59:22.953 DEBUG 130212 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:65465 is Connecting
+2019-11-24 21:59:23.045 DEBUG 130212 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 21:59:41.048 DEBUG 130212 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:65503 is Connecting
+2019-11-24 21:59:41.138 DEBUG 130212 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
+2019-11-24 22:00:38.442 ERROR 130212 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 22:00:38.444 DEBUG 130212 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 1
+2019-11-24 22:01:19.811 ERROR 130212 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 22:01:19.812 DEBUG 130212 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 0
+2019-11-24 22:09:32.123  INFO 132052 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 132052 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-24 22:09:32.126 DEBUG 132052 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-24 22:09:32.126  INFO 132052 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-24 22:09:33.073  INFO 132052 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.403 seconds (JVM running for 3.52)
+2019-11-24 22:09:35.596  INFO 132052 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 8090
+2019-11-24 22:15:27.534 DEBUG 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49360 is Connecting
+2019-11-24 22:15:27.624 DEBUG 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 22:15:38.340 DEBUG 132052 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49398 is Connecting
+2019-11-24 22:15:38.437 DEBUG 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
+2019-11-24 22:15:38.437 DEBUG 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : Before close，number of connection is 1
+2019-11-24 22:15:38.438 DEBUG 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : After close，number of connection is 1
+2019-11-24 22:15:38.438 DEBUG 132052 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 1
+2019-11-24 22:17:36.381 ERROR 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 22:17:36.381 DEBUG 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 0
+2019-11-24 22:17:43.180 DEBUG 132052 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49451 is Connecting
+2019-11-24 22:17:43.289 DEBUG 132052 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 22:18:29.212 DEBUG 132052 --- [nioEventLoopGroup-3-4] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49498 is Connecting
+2019-11-24 22:18:29.298 DEBUG 132052 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
+2019-11-24 22:18:29.298 DEBUG 132052 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : Before close，number of connection is 1
+2019-11-24 22:18:29.299 DEBUG 132052 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : After close，number of connection is 1
+2019-11-24 22:18:29.299 DEBUG 132052 --- [nioEventLoopGroup-3-4] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 1
+2019-11-24 22:20:22.330 ERROR 132052 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 22:20:22.331 DEBUG 132052 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 0
+2019-11-24 22:20:28.804 DEBUG 132052 --- [nioEventLoopGroup-3-5] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49547 is Connecting
+2019-11-24 22:20:28.894 DEBUG 132052 --- [nioEventLoopGroup-3-5] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 22:20:55.241 DEBUG 132052 --- [nioEventLoopGroup-3-6] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49587 is Connecting
+2019-11-24 22:20:55.328 DEBUG 132052 --- [nioEventLoopGroup-3-5] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
+2019-11-24 22:20:55.328 DEBUG 132052 --- [nioEventLoopGroup-3-5] c.r.r.n.h.PluginCommServiceHandler       : Before close，number of connection is 1
+2019-11-24 22:20:55.329 DEBUG 132052 --- [nioEventLoopGroup-3-5] c.r.r.n.h.PluginCommServiceHandler       : After close，number of connection is 1
+2019-11-24 22:20:55.329 DEBUG 132052 --- [nioEventLoopGroup-3-6] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 1
+2019-11-24 22:23:12.157 ERROR 132052 --- [nioEventLoopGroup-3-5] c.r.r.n.h.PluginCommServiceHandler       : 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 22:23:12.158 DEBUG 132052 --- [nioEventLoopGroup-3-5] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 0
+2019-11-24 22:23:19.195 DEBUG 132052 --- [nioEventLoopGroup-3-7] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49636 is Connecting
+2019-11-24 22:23:19.294 DEBUG 132052 --- [nioEventLoopGroup-3-7] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 22:23:26.694 DEBUG 132052 --- [nioEventLoopGroup-3-8] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49679 is Connecting
+2019-11-24 22:23:26.791 DEBUG 132052 --- [nioEventLoopGroup-3-7] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
+2019-11-24 22:23:26.792 DEBUG 132052 --- [nioEventLoopGroup-3-7] c.r.r.n.h.PluginCommServiceHandler       : Before close，number of connection is 1
+2019-11-24 22:23:26.792 DEBUG 132052 --- [nioEventLoopGroup-3-7] c.r.r.n.h.PluginCommServiceHandler       : After close，number of connection is 1
+2019-11-24 22:23:26.792 DEBUG 132052 --- [nioEventLoopGroup-3-8] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 1
+2019-11-24 22:28:10.152 ERROR 132052 --- [nioEventLoopGroup-3-7] c.r.r.n.h.PluginCommServiceHandler       : 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 22:28:10.152 DEBUG 132052 --- [nioEventLoopGroup-3-7] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 0
+2019-11-24 22:28:16.958 DEBUG 132052 --- [nioEventLoopGroup-3-9] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49743 is Connecting
+2019-11-24 22:28:17.063 DEBUG 132052 --- [nioEventLoopGroup-3-9] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-24 22:28:24.421 DEBUG 132052 --- [nioEventLoopGroup-3-10] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:49782 is Connecting
+2019-11-24 22:28:24.517 DEBUG 132052 --- [nioEventLoopGroup-3-9] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
+2019-11-24 22:28:24.517 DEBUG 132052 --- [nioEventLoopGroup-3-9] c.r.r.n.h.PluginCommServiceHandler       : Before close，number of connection is 1
+2019-11-24 22:28:24.517 DEBUG 132052 --- [nioEventLoopGroup-3-9] c.r.r.n.h.PluginCommServiceHandler       : After close，number of connection is 1
+2019-11-24 22:28:24.518 DEBUG 132052 --- [nioEventLoopGroup-3-10] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 1
+2019-11-24 22:48:08.772 DEBUG 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:50204 is Connecting
+2019-11-24 22:48:08.889 DEBUG 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB  Registered Before ===
+2019-11-24 22:49:00.614 ERROR 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-11-24 22:49:00.615 DEBUG 132052 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : channelInactive:Binded Channel Count is 1
