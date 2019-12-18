@@ -1,0 +1,13 @@
+2019-11-26 15:45:00.091  INFO 147692 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 147692 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
+2019-11-26 15:45:00.112 DEBUG 147692 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-11-26 15:45:00.114  INFO 147692 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
+2019-11-26 15:45:01.228  INFO 147692 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.606 seconds (JVM running for 4.657)
+2019-11-26 15:45:04.825  INFO 147692 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2019-11-26 15:46:09.959 DEBUG 147692 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:61443 is Connecting
+2019-11-26 15:46:10.100 DEBUG 147692 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
+2019-11-26 15:47:58.300 DEBUG 147692 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:61482 is Connecting
+2019-11-26 15:47:58.305 DEBUG 147692 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
+2019-11-26 15:47:58.306 DEBUG 147692 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:61482 Disconnected: Remove 0 Gateway
+2019-11-26 15:50:26.220 DEBUG 147692 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:61500 is Connecting
+2019-11-26 15:50:26.221 DEBUG 147692 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
+2019-11-26 15:50:26.221 DEBUG 147692 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:61500 Disconnected: Remove 0 Gateway

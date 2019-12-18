@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.runtrend.realtimecomm.config.NettyProperties",
+      "name": "netty",
+      "type": "com.runtrend.realtimecomm.config.NettyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.runtrend.realtimecomm.config.NettyProperties",
+      "defaultValue": 0,
+      "name": "netty.backlog",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.runtrend.realtimecomm.config.NettyProperties",
+      "defaultValue": 0,
+      "name": "netty.boss-count",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.runtrend.realtimecomm.config.NettyProperties",
+      "defaultValue": false,
+      "name": "netty.keep-alive",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.runtrend.realtimecomm.config.NettyProperties",
+      "defaultValue": 0,
+      "name": "netty.tcp-port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.runtrend.realtimecomm.config.NettyProperties",
+      "defaultValue": 0,
+      "name": "netty.worker-count",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
