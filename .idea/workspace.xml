@@ -7,103 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a563a4d-1b6c-49f1-9fb0-b04e5bff85ca" name="Default" comment="new push">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/realtimecomm-0.0.1-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/realtimecomm-0.0.1-SNAPSHOT.jar.original" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/runtrend/realtimecomm/RealtimecommApplicationTests.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/realtimecomm_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_31.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_42_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_18_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HELP.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/real-time-comm/2019-11-20.0.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/real-time-comm/2019-11-21.0.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/real-time-comm/2019-11-24.0.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/real-time-comm/2019-11-25.0.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/real-time-comm/netty.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/realtimecomm.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/runtrend/realtimecomm/RealtimecommApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/realtimecomm-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/realtimecomm-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/realtimecomm-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/realtimecomm-0.0.1-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -127,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="PluginCommServiceHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PluginCommServiceHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/handler/PluginCommServiceHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="44">
+              <caret line="159" column="33" lean-forward="false" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,92 +46,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <file leaf-file-name="Future.class" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/tools/Maven/repo/m2/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar!/io/netty/util/concurrent/Future.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="175">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RealtimecommApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/RealtimecommApplication.java">
+      <file leaf-file-name="ConstantUtiles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/utils/ConstantUtiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealtimecommApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/runtrend/realtimecomm/RealtimecommApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="305">
+              <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/mapper/AccountMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleChatServerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/handler/SimpleChatServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1608">
-              <caret line="74" column="31" lean-forward="false" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FullHttpUtiles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/utils/FullHttpUtiles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/ChannelRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -232,8 +69,42 @@
       <file leaf-file-name="SimpleChatChannelInitializer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/handler/SimpleChatChannelInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="312">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealtimecommApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/RealtimecommApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TCPServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/TCPServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/config/NettyConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -252,7 +123,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>tcpSocketAddress</find>
-      <find>NettyConfiguration</find>
       <find>InetSocketAddress</find>
       <find>bootstrap</find>
       <find>ServerBootstrap</find>
@@ -273,6 +143,8 @@
       <find>remoteAddress</find>
       <find>close</find>
       <find>hibernate</find>
+      <find>NettyConfiguration</find>
+      <find>bossGroup</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -296,9 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/TCPServerStartFailedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/RealtimecommApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/runtrend/realtimecomm/RealtimecommApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/config/NettyConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/utils/ConstantUtiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/handler/SimpleChatServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/mapper/AdAccountMapper.java" />
@@ -312,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/utils/FullHttpUtiles.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/serivce/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/config/NettyConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/utils/ConstantUtiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/handler/PluginCommServiceHandler.java" />
       </list>
     </option>
@@ -509,8 +381,8 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
-      <flattenPackages />
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages PackagesPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -523,6 +395,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -552,7 +425,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -598,6 +470,11 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$" />
+    </excluded-roots>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -772,6 +649,10 @@
       <workItem from="1576574887297" duration="3552000" />
       <workItem from="1576580514528" duration="1642000" />
       <workItem from="1576583566992" duration="410000" />
+      <workItem from="1576633812401" duration="1077000" />
+      <workItem from="1576727396758" duration="688000" />
+      <workItem from="1576737232381" duration="2105000" />
+      <workItem from="1576830257309" duration="5035000" />
     </task>
     <task id="LOCAL-00001" summary="删除一些注释">
       <created>1575123145746</created>
@@ -780,11 +661,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575123145746</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修复“伪在线”插件无法再次注册的bug">
+      <created>1576835850111</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576835850111</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142808000" />
+    <option name="totallyTimeSpent" value="151713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,31 +691,31 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858837" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33207342" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26550868" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23596112" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20572354" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57560974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5744417" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13780488" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13780488" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3178484" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19146341" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -843,7 +731,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除一些注释" />
     <MESSAGE value="new push" />
-    <option name="LAST_COMMIT_MESSAGE" value="new push" />
+    <MESSAGE value="修复“伪在线”插件无法再次注册的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复“伪在线”插件无法再次注册的bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -852,20 +741,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/TCPServerStartFailedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/config/NettyProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -875,8 +755,8 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -895,8 +775,8 @@
           <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1075,34 +955,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/real-time-comm/netty.log" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/config/NettyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/config/NettyProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/utils/ConstantUtiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/serivce/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1114,15 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/TCPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,10 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,11 +981,11 @@
         <state relative-caret-position="48">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#844#845#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1163,7 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,14 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/handler/SimpleChatChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -1191,40 +1021,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/handler/PluginCommServiceHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/runtrend/realtimecomm/RealtimecommApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/runtrend/realtimecomm/RealtimecommApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/config/NettyProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="212">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/config/NettyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/handler/SimpleChatChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/RealtimecommApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="264">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/TCPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/utils/ConstantUtiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/tools/Maven/repo/m2/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar!/io/netty/util/concurrent/Future.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/runtrend/realtimecomm/netty/handler/PluginCommServiceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="159" column="33" lean-forward="false" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
