@@ -1,13 +1,121 @@
-2019-11-26 15:45:00.091  INFO 147692 --- [main] c.r.r.RealtimecommApplication            : Starting RealtimecommApplication on LAPTOP-QR2V168R with PID 147692 (E:\IdeaProjects\realtimecomm\target\classes started by 56270 in E:\IdeaProjects\realtimecomm)
-2019-11-26 15:45:00.112 DEBUG 147692 --- [main] c.r.r.RealtimecommApplication            : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2019-11-26 15:45:00.114  INFO 147692 --- [main] c.r.r.RealtimecommApplication            : No active profile set, falling back to default profiles: default
-2019-11-26 15:45:01.228  INFO 147692 --- [main] c.r.r.RealtimecommApplication            : Started RealtimecommApplication in 1.606 seconds (JVM running for 4.657)
-2019-11-26 15:45:04.825  INFO 147692 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
-2019-11-26 15:46:09.959 DEBUG 147692 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : /127.0.0.1:61443 is Connecting
-2019-11-26 15:46:10.100 DEBUG 147692 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === 000C293148CB Register Successfully ===
-2019-11-26 15:47:58.300 DEBUG 147692 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:61482 is Connecting
-2019-11-26 15:47:58.305 DEBUG 147692 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
-2019-11-26 15:47:58.306 DEBUG 147692 --- [nioEventLoopGroup-3-2] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:61482 Disconnected: Remove 0 Gateway
-2019-11-26 15:50:26.220 DEBUG 147692 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:61500 is Connecting
-2019-11-26 15:50:26.221 DEBUG 147692 --- [nioEventLoopGroup-3-1] c.r.r.n.h.PluginCommServiceHandler       : === Send Message to 000C293148CB Successfully ===
-2019-11-26 15:50:26.221 DEBUG 147692 --- [nioEventLoopGroup-3-3] c.r.r.n.h.PluginCommServiceHandler       : /0:0:0:0:0:0:0:1:61500 Disconnected: Remove 0 Gateway
+2020-01-02 16:35:25.416  INFO 22148 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 22148 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:35:25.423 DEBUG 22148 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:35:25.423  INFO 22148 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:35:28.873  INFO 22148 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 4.178 seconds (JVM running for 5.903)
+2020-01-02 16:35:30.789  INFO 22148 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 16:35:52.836  INFO 8120 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 8120 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:35:52.837 DEBUG 8120 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:35:52.838  INFO 8120 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:35:55.617  INFO 8120 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.289 seconds (JVM running for 4.342)
+2020-01-02 16:35:57.377  INFO 8120 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 8120 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:35:57.378 DEBUG 8120 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:35:57.378  INFO 8120 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:35:57.987  INFO 8120 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 0.649 seconds (JVM running for 6.712)
+2020-01-02 16:38:48.449  INFO 14368 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 14368 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:38:48.450 DEBUG 14368 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:38:48.451  INFO 14368 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:38:51.252  INFO 14368 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.22 seconds (JVM running for 4.24)
+2020-01-02 16:38:52.907  INFO 14368 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 16:41:38.327  INFO 22104 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 22104 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:41:38.328 DEBUG 22104 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:41:38.329  INFO 22104 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:41:41.074  INFO 22104 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.185 seconds (JVM running for 4.243)
+2020-01-02 16:41:42.785  INFO 22104 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 16:43:15.011  INFO 22068 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 22068 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:43:15.012 DEBUG 22068 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:43:15.013  INFO 22068 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:43:17.723  INFO 22068 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.137 seconds (JVM running for 4.18)
+2020-01-02 16:43:19.542  INFO 22068 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 16:49:26.055  INFO 2712 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 2712 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:49:26.056 DEBUG 2712 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:49:26.057  INFO 2712 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:49:26.270  INFO 2712 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 2712 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:49:26.270 DEBUG 2712 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:49:26.271  INFO 2712 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:51:26.454  INFO 15228 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 15228 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:51:26.454 DEBUG 15228 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:51:26.455  INFO 15228 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:51:29.205  INFO 15228 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.162 seconds (JVM running for 4.243)
+2020-01-02 16:51:30.915  INFO 15228 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 16:54:01.616  INFO 20544 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 20544 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:54:01.617 DEBUG 20544 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:54:01.618  INFO 20544 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:54:04.323  INFO 20544 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.143 seconds (JVM running for 4.179)
+2020-01-02 16:54:06.027  INFO 20544 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 16:54:25.899  INFO 17236 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 17236 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:54:25.900 DEBUG 17236 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:54:25.901  INFO 17236 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:54:28.805  INFO 17236 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.482 seconds (JVM running for 4.861)
+2020-01-02 16:54:30.476  INFO 17236 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 16:56:50.045  INFO 2916 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 2916 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:56:50.046 DEBUG 2916 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:56:50.047  INFO 2916 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:56:52.951  INFO 2916 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.364 seconds (JVM running for 4.44)
+2020-01-02 16:56:54.776  INFO 2916 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 2916 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:56:54.776 DEBUG 2916 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:56:54.776  INFO 2916 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:56:55.386  INFO 2916 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 0.662 seconds (JVM running for 6.875)
+2020-01-02 16:57:08.293  INFO 19116 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 19116 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:57:08.294 DEBUG 19116 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:57:08.295  INFO 19116 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:57:11.019  INFO 19116 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.175 seconds (JVM running for 4.238)
+2020-01-02 16:57:12.723  INFO 19116 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 16:59:48.831  INFO 13880 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 13880 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:59:48.832 DEBUG 13880 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:59:48.833  INFO 13880 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 16:59:49.083  INFO 13880 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 13880 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 16:59:49.083 DEBUG 13880 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 16:59:49.084  INFO 13880 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:02:30.563  INFO 19156 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 19156 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:02:30.564 DEBUG 19156 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:02:30.564  INFO 19156 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:02:33.368  INFO 19156 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.216 seconds (JVM running for 4.251)
+2020-01-02 17:02:35.048  INFO 19156 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 17:29:22.457  INFO 11340 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 11340 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:29:22.458 DEBUG 11340 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:29:22.459  INFO 11340 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:29:26.010  INFO 11340 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 4.367 seconds (JVM running for 6.057)
+2020-01-02 17:29:28.021  INFO 11340 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 17:35:10.034  INFO 92 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 92 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:35:10.035 DEBUG 92 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:35:10.035  INFO 92 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:35:13.055  INFO 92 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.507 seconds (JVM running for 4.758)
+2020-01-02 17:35:14.939  INFO 92 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 17:36:50.631  INFO 7924 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 7924 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:36:50.632 DEBUG 7924 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:36:50.633  INFO 7924 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:36:53.631  INFO 7924 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.779 seconds (JVM running for 5.301)
+2020-01-02 17:36:55.608  INFO 7924 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 7924 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:36:55.608 DEBUG 7924 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:36:55.608  INFO 7924 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:36:56.241  INFO 7924 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 0.727 seconds (JVM running for 7.911)
+2020-01-02 17:37:47.179  INFO 18676 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 18676 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:37:47.180 DEBUG 18676 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:37:47.180  INFO 18676 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:37:50.345  INFO 18676 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.679 seconds (JVM running for 4.987)
+2020-01-02 17:37:52.193  INFO 18676 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 17:38:03.753  INFO 18572 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 18572 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:38:03.755 DEBUG 18572 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:38:03.756  INFO 18572 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:38:07.245  INFO 18572 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 4.522 seconds (JVM running for 6.358)
+2020-01-02 17:38:09.009  INFO 18572 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 17:38:45.233  INFO 17920 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 17920 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:38:45.236 DEBUG 17920 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:38:45.239  INFO 17920 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:38:55.130  INFO 17920 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 11.102 seconds (JVM running for 13.732)
+2020-01-02 17:38:56.909  INFO 17920 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 17:41:41.545  INFO 9940 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 9940 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:41:41.546 DEBUG 9940 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:41:41.547  INFO 9940 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:41:44.500  INFO 9940 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.377 seconds (JVM running for 4.445)
+2020-01-02 17:41:46.272  INFO 9940 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 17:42:58.160  INFO 13684 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 13684 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:42:58.161 DEBUG 13684 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:42:58.162  INFO 13684 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:43:00.950  INFO 13684 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.278 seconds (JVM running for 4.441)
+2020-01-02 17:43:02.718  INFO 13684 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000
+2020-01-02 17:51:30.244  INFO 16864 --- [main] c.r.r.RealtimecommApplicationTests       : Starting RealtimecommApplicationTests on LAPTOP-QR2V168R with PID 16864 (started by 56270 in E:\IdeaProjects\realtimecomm)
+2020-01-02 17:51:30.245 DEBUG 16864 --- [main] c.r.r.RealtimecommApplicationTests       : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2020-01-02 17:51:30.245  INFO 16864 --- [main] c.r.r.RealtimecommApplicationTests       : No active profile set, falling back to default profiles: default
+2020-01-02 17:51:33.242  INFO 16864 --- [main] c.r.r.RealtimecommApplicationTests       : Started RealtimecommApplicationTests in 3.462 seconds (JVM running for 4.554)
+2020-01-02 17:51:35.020  INFO 16864 --- [main] c.runtrend.realtimecomm.netty.TCPServer  : Server is started : port 25000

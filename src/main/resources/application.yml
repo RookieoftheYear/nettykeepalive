@@ -32,3 +32,20 @@ spring:
         initial-size: 5
         max-total: 5
         max-wait-millis: 200
+   redis:
+      host: 127.0.0.1
+      port: 6379
+
+
+#spring:
+#   datasource:
+#      type: com.alibaba.druid.pool.DruidDataSource
+#      driver-class-name: com.mysql.jdbc.Driver
+#      url: jdbc:mysql://120.27.238.127:3306/sunprotect?useUnicode=true&characterEncoding=utf8
+#      username: root
+#      password: 123
+#      dbcp2:
+#        min-idle: 5
+#        initial-size: 5
+#        max-total: 5
+#        max-wait-millis: 200

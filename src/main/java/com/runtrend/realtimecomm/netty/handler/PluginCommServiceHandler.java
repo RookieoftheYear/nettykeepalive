@@ -46,10 +46,18 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
 
     }
 
+
+    //    @Override
+//    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+//        log.debug("=== channelReadComplete Invoked ===");
+//        ctx.channel().read();
+//    }
+
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, FullHttpRequest fullHttpRequest) throws Exception {
 
-
+        String header = fullHttpRequest.headers().toString();
+        log.debug("==== Message in Read0, Header is {} ===",header);
         URI uri = new URI(fullHttpRequest.uri());
         String path = uri.getPath();
         if (ConstantUtiles.FAVICON_ICO.equals(path)) {
@@ -62,6 +70,14 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                 .map(x -> queryProcess(ctx, uri))
                 .orElseGet(() -> communicationProcess(ctx, fullHttpRequest));
     }
+
+//    @Override
+//    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+//        FullHttpRequest a = (FullHttpRequest) msg;
+//        String header = a.headers().toString();
+//        log.debug("==== Message is Passing to Read0, Header is {} ===",header);
+//        channelRead0(ctx, (FullHttpRequest) msg);
+//    }
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
@@ -134,15 +150,17 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
         ByteBuf content = fullHttpRequest.content();
         content.retain();
         Optional.ofNullable(fullHttpRequest.headers().get("isGateway"))
-                .filter(flag -> flag.equals(ConstantUtiles.GATEWAY_FLAG))
+                .filter(ConstantUtiles.GATEWAY_FLAG::equals)
                 .map(x -> {
                     Optional.ofNullable(channelRepository.get(mac))
                             .map(y -> {
-                                if (y.isActive() && opType.equals(ConstantUtiles.HEARTBEAT_OP)) {
+                                //在连接池里，通道active且是心跳操作
+                                if (y.isActive() && ConstantUtiles.HEARTBEAT_OP.equals(opType)) {
                                     log.debug("=== {} Registered Before and Still Alive ===", mac);
                                     reply.append(MessageFormat.format("=== {0}  Registered Before ===", mac));
                                 } else {
-                                    log.debug("{} is Updating ", mac);
+                                    //在连接池里，通道inactive或者是注册操作
+                                    log.debug("=== {} is Updating: The Operation Type : {} , Alive Status : {} ===", mac,opType,y.isActive());
                                     y.close().addListener(future -> {
 
                                         if (future.isSuccess()) {

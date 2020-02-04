@@ -7,8 +7,11 @@ import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpRequestDecoder;
 import io.netty.handler.codec.http.HttpResponseEncoder;
 import io.netty.handler.codec.string.StringEncoder;
+import io.netty.handler.timeout.IdleStateHandler;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
+
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author GanZY
@@ -19,7 +22,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @RequiredArgsConstructor
-public class SimpleChatChannelInitializer extends ChannelInitializer<SocketChannel> {
+public class PluginsCommServiceInitializer extends ChannelInitializer<SocketChannel> {
 
 
     private final StringEncoder ENCODER = new StringEncoder();
@@ -31,14 +34,12 @@ public class SimpleChatChannelInitializer extends ChannelInitializer<SocketChann
     protected void initChannel(SocketChannel socketChannel) throws Exception {
         ChannelPipeline pipeline = socketChannel.pipeline();
 
-        // Add the text line codec combination first,
-//        pipeline.addLast(new DelimiterBasedFrameDecoder(1024 * 1024, Delimiters.lineDelimiter()));
-        // the encoder and decoder are static as these are sharable
+        pipeline.addLast(new IdleStateHandler(50, 0, 0, TimeUnit.SECONDS));
+        pipeline.addLast(new ServerIdleStateTrigger());
         pipeline.addLast(new HttpRequestDecoder());
-//        pipeline.addLast(ENCODER);
         pipeline.addLast(new HttpResponseEncoder());
         pipeline.addLast(new HttpObjectAggregator(1024*1024));
         pipeline.addLast(pluginCommServiceHandler);
-//        pipeline.addLast(simpleChatServerHandler);
+
     }
 }

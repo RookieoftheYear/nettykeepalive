@@ -42,16 +42,16 @@ public class AccountServiceImpl implements AccountService {
                         msg = URLEncoder.encode(msg, "UTF-8");
                     } catch (UnsupportedEncodingException e) {
 
-                        log.debug("Encode Message to User Fail : {}",e.getMessage());
+                        log.debug("Encode SMessage to User Fail : {}",e.getMessage());
                     }
                     String url = MessageFormat.format(ConstantUtiles.POST_URL, mobileByMac, msg);
                     String rep = null;
                     try {
                         rep = FullHttpUtiles.sendPost(url);
                     } catch (IOException e) {
-                        log.debug("Send Message to User error: {}",e.getMessage());
+                        log.debug("Send SMessage to User error: {}",e.getMessage());
                     }
-                    log.debug("=== Send Message to User {} , status : {} ===",mac,rep);
+                    log.debug("=== Send SMessage to User {} , status : {} ===",mobileByMac,rep);
                     redisTemplate.opsForSet().add("phone", mobileByMac);
                     log.debug("=== Update Redis On {} ===",mobileByMac);
                 });

@@ -5,6 +5,7 @@ import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PreDestroy;
@@ -27,6 +28,7 @@ public class TCPServer {
 
     private Channel serverChannel;
 
+    private final StringRedisTemplate stringRedisTemplate;
     public void start()  {
         try {
             ChannelFuture serverChannelFuture = serverBootstrap.bind(tcpPort).sync();
@@ -43,5 +45,9 @@ public class TCPServer {
             serverChannel.close();
             serverChannel.parent().close();
         }
+    }
+
+    public static void main(String[] args) {
+
     }
 }
