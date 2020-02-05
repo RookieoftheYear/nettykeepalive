@@ -14,6 +14,8 @@ import org.apache.commons.httpclient.params.HttpMethodParams;
 import java.io.IOException;
 
 import static com.runtrend.realtimecomm.netty.utils.ConstantUtiles.CONTENT_LENGTH;
+import static com.runtrend.realtimecomm.netty.utils.ConstantUtiles.HEARTBEAT_OP;
+import static com.runtrend.realtimecomm.netty.utils.ConstantUtiles.OP_TYPE;
 import static io.netty.handler.codec.http.HttpResponseStatus.OK;
 import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 
@@ -41,6 +43,17 @@ public class FullHttpUtiles {
                 .setInt(CONTENT_LENGTH, reply.readableBytes());
         return defaultFullHttpResponse;
 
+    }
+
+    public static FullHttpResponse sendHeartbeat(String content) {
+        ByteBuf reply = Unpooled
+                .copiedBuffer(content, CharsetUtil.UTF_8);
+        DefaultFullHttpResponse defaultFullHttpResponse = new DefaultFullHttpResponse(HTTP_1_1, OK, reply);
+        defaultFullHttpResponse.headers()
+                .setInt(CONTENT_LENGTH, 0);
+        defaultFullHttpResponse.headers()
+                .set(OP_TYPE, HEARTBEAT_OP);
+        return defaultFullHttpResponse;
     }
 
     public static String sendPost(String urlParam) throws IOException {

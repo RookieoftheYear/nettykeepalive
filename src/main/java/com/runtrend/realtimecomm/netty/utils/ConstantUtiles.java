@@ -24,4 +24,5 @@ public class ConstantUtiles {
     public static final String NODE_FLAG = "0";
     public static final String REGISTER_OP = "reg";
     public static final String HEARTBEAT_OP = "Heartbeat";
+    public static final String OP_TYPE = "OpType";
 }
