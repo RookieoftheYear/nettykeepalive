@@ -36,6 +36,7 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
     private final ChannelRepository channelRepository;
 
     private final AccountService accountService;
+
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         Assert.notNull(this.channelRepository, "[Assertion failed] - ChannelRepository is required; it must not be null");
@@ -45,10 +46,18 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
 
     }
 
+
+    //    @Override
+//    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+//        log.debug("=== channelReadComplete Invoked ===");
+//        ctx.channel().read();
+//    }
+
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, FullHttpRequest fullHttpRequest) throws Exception {
 
-
+        String header = fullHttpRequest.headers().toString();
+        log.debug("==== Message in Read0, Header is {} ===",header);
         URI uri = new URI(fullHttpRequest.uri());
         String path = uri.getPath();
         if (ConstantUtiles.FAVICON_ICO.equals(path)) {
@@ -61,6 +70,14 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                 .map(x -> queryProcess(ctx, uri))
                 .orElseGet(() -> communicationProcess(ctx, fullHttpRequest));
     }
+
+//    @Override
+//    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+//        FullHttpRequest a = (FullHttpRequest) msg;
+//        String header = a.headers().toString();
+//        log.debug("==== Message is Passing to Read0, Header is {} ===",header);
+//        channelRead0(ctx, (FullHttpRequest) msg);
+//    }
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
@@ -79,7 +96,7 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
     }
 
     // Deal with API:
-    private String queryProcess(ChannelHandlerContext ctx, URI uri)  {
+    private String queryProcess(ChannelHandlerContext ctx, URI uri) {
 
         String path = uri.getPath();
         StringBuffer resReply = new StringBuffer();
@@ -88,15 +105,14 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
 
             FullHttpResponse response = FullHttpUtiles.stringToHttp(this.channelRepository.getChannels().toString());
             ctx.writeAndFlush(response).addListeners(ChannelFutureListener.CLOSE,
-                    (ChannelFutureListener) future ->{
-                        if (future.isSuccess()){
-                            resReply .append("Response to Query Successfully")  ;
-                        }
-                        else {
+                    (ChannelFutureListener) future -> {
+                        if (future.isSuccess()) {
+                            resReply.append("Response to Query Successfully");
+                        } else {
                             String message = future.cause().getMessage();
                             resReply.append("Response to Query Fail : ").append(message);
                         }
-                        log.debug("Response to {}: {}",path,resReply);
+                        log.debug("Response to {}: {}", path, resReply);
                     }
             );
 
@@ -107,15 +123,14 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                     .orElse(false);
             FullHttpResponse reply = FullHttpUtiles.stringToHttp(String.valueOf(isActive));
             ctx.writeAndFlush(reply).addListeners(ChannelFutureListener.CLOSE,
-                    (ChannelFutureListener) future ->{
-                        if (future.isSuccess()){
-                            resReply .append("Response to Query Successfully")  ;
-                        }
-                        else {
+                    (ChannelFutureListener) future -> {
+                        if (future.isSuccess()) {
+                            resReply.append("Response to Query Successfully");
+                        } else {
                             String message = future.cause().getMessage();
                             resReply.append("Response to Query Fail :").append(message);
                         }
-                        log.debug("Response to {}: {}",path,resReply);
+                        log.debug("Response to {}: {}", path, resReply);
                     });
 
         }
@@ -131,27 +146,38 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
         String mac = fullHttpRequest.headers().get("macID");
 
         Assert.notNull(mac, "[Assertion failed] - mac is required; it must not be null");
-
+        String opType = fullHttpRequest.headers().get("OpType");
         ByteBuf content = fullHttpRequest.content();
         content.retain();
         Optional.ofNullable(fullHttpRequest.headers().get("isGateway"))
-                .filter(flag -> flag.equals(ConstantUtiles.GATEWAY_FLAG))
+                .filter(ConstantUtiles.GATEWAY_FLAG::equals)
                 .map(x -> {
                     Optional.ofNullable(channelRepository.get(mac))
                             .map(y -> {
-                                if (y.isActive()){
+                                //在连接池里，通道active且是心跳操作
+                                if (y.isActive() && ConstantUtiles.HEARTBEAT_OP.equals(opType)) {
                                     log.debug("=== {} Registered Before and Still Alive ===", mac);
-                                    return reply.append(MessageFormat.format("=== {0}  Registered Before ===", mac));
-                                }
-                                else {
-                                    log.debug("{} is not Active", mac);
-                                    y.close();
-                                    channelRepository.put(mac, ctx.channel());
-                                    log.debug("=== {} Update Successfully ===", mac);
-                                    return reply.append(MessageFormat.format("=== {0}  Update Successfully ===", mac));
+                                    reply.append(MessageFormat.format("=== {0}  Registered Before ===", mac));
+                                } else {
+                                    //在连接池里，通道inactive或者是注册操作
+                                    log.debug("=== {} is Updating: The Operation Type : {} , Alive Status : {} ===", mac,opType,y.isActive());
+                                    y.close().addListener(future -> {
+
+                                        if (future.isSuccess()) {
+                                            channelRepository.put(mac, ctx.channel());
+                                            log.debug("=== {} Update Successfully ===", mac);
+                                            reply.append(MessageFormat.format("=== {0}  Update Successfully ===", mac));
+                                        } else {
+                                            String message = future.cause().getMessage();
+                                            log.debug("=== {} Update Fail ===", mac);
+                                            reply.append(MessageFormat.format("=== {0}  Update Fail :", mac))
+                                                    .append(message).append(" ===");
+                                        }
+                                    });
+
                                 }
 
-
+                                return reply;
                             })
                             .orElseGet(() -> {
 
@@ -160,6 +186,7 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                                 accountService.sendMessage(mac);
                                 return reply.append(MessageFormat.format("=== {0} Registered Successfully ===", mac));
                             });
+
                     ctx.writeAndFlush(FullHttpUtiles.stringToHttp(reply.toString()));
                     return reply;
                 })
@@ -170,15 +197,15 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
 
                                 channel.writeAndFlush(FullHttpUtiles.stringToHttp(content.toString(CharsetUtil.UTF_8)))
                                         .addListener((ChannelFutureListener) future -> {
-                                    if (future.isSuccess()) {
-                                        log.debug("=== Send Message to {} Successfully ===", mac);
-                                        reply.append(MessageFormat.format("=== Send Message to {0} Successfully ===", mac));
+                                            if (future.isSuccess()) {
+                                                log.debug("=== Send Message to {} Successfully ===", mac);
+                                                reply.append(MessageFormat.format("=== Send Message to {0} Successfully ===", mac));
 
-                                    } else {
-                                        log.debug("=== Send Message to {} Fail:{}", mac, future.cause());
-                                        reply.append(MessageFormat.format("=== Send Message to {0} Fail:{1}", mac, future.cause()));
-                                    }
-                                });
+                                            } else {
+                                                log.debug("=== Send Message to {} Fail:{}", mac, future.cause());
+                                                reply.append(MessageFormat.format("=== Send Message to {0} Fail:{1}", mac, future.cause()));
+                                            }
+                                        });
 
                                 return reply;
                             })

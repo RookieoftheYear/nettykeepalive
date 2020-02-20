@@ -22,6 +22,7 @@ import org.springframework.util.Assert;
 @RequiredArgsConstructor
 @ChannelHandler.Sharable
 public class SimpleChatServerHandler extends ChannelInboundHandlerAdapter {
+
     private final ChannelRepository channelRepository;
 
     @Override

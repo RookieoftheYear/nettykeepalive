@@ -22,4 +22,7 @@ public class ConstantUtiles {
     public static final String REGISTER_MSG = "您办理的空中卫士宽带版业务（{0}）已经激活。";
     public static final String GATEWAY_FLAG = "1";
     public static final String NODE_FLAG = "0";
+    public static final String REGISTER_OP = "reg";
+    public static final String HEARTBEAT_OP = "Heartbeat";
+    public static final String OP_TYPE = "OpType";
 }

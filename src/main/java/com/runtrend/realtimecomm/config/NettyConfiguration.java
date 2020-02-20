@@ -1,7 +1,7 @@
 package com.runtrend.realtimecomm.config;
 
 import com.runtrend.realtimecomm.netty.ChannelRepository;
-import com.runtrend.realtimecomm.netty.handler.SimpleChatChannelInitializer;
+import com.runtrend.realtimecomm.netty.handler.PluginsCommServiceInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -39,11 +39,12 @@ public class NettyConfiguration {
                 .handler(new LoggingHandler(LogLevel.DEBUG))
                 .childHandler(somethingChannelInitializer);
         b.option(ChannelOption.SO_BACKLOG, nettyProperties.getBacklog());
+        b.childOption(ChannelOption.TCP_NODELAY, true);
         return b;
     }
 
     @Autowired
-    private SimpleChatChannelInitializer somethingChannelInitializer;
+    private PluginsCommServiceInitializer somethingChannelInitializer;
 
     @Bean(destroyMethod = "shutdownGracefully")
     public NioEventLoopGroup bossGroup() {
