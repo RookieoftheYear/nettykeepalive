@@ -24,9 +24,9 @@ spring:
    datasource:
       type: com.alibaba.druid.pool.DruidDataSource
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://192.168.203.147:3306/sunprotect?useUnicode=true&characterEncoding=utf8
+      url: jdbc:mysql://*********/sunprotect?useUnicode=true&characterEncoding=utf8
       username: root
-      password: bhaman
+      password: *****
       dbcp2:
         min-idle: 5
         initial-size: 5
