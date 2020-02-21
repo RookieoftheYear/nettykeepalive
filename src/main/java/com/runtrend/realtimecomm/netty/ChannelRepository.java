@@ -14,26 +14,23 @@ import java.util.concurrent.ConcurrentMap;
  */
 public class ChannelRepository {
 
-    private ConcurrentMap<String, Channel> channelCache = new ConcurrentHashMap<>();
+    private  ConcurrentMap<String, Channel> channelCache = new ConcurrentHashMap<>();
 
     public ChannelRepository put(String key, Channel value) {
-        channelCache.put(key, value);
+        this.channelCache.put(key, value);
         return this;
     }
 
     public Channel get(String key) {
         return channelCache.get(key);
     }
-
-    public int remove(Channel key) {
-        int sizeBefore = size();
-        this.channelCache.values().remove(key);
-        int sizeAfter = size();
-        return sizeAfter - sizeBefore;
+    //修改
+    public void remove(String key) {
+        this.channelCache.remove(key);
     }
 
     public int size() {
-        return this.channelCache.size();
+        return channelCache.size();
     }
 
     public StringBuffer getChannels() {
@@ -45,5 +42,6 @@ public class ChannelRepository {
         return stringBuffer;
 
     }
+
 
 }

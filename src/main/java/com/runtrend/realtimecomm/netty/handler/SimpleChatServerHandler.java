@@ -73,7 +73,7 @@ public class SimpleChatServerHandler extends ChannelInboundHandlerAdapter {
         Assert.notNull(ctx, "[Assertion failed] - ChannelHandlerContext is required; it must not be null");
 
         String channelKey = ctx.channel().remoteAddress().toString();
-        this.channelRepository.remove(ctx.channel());
+
 
         log.debug("channelInactive:Binded Channel Count is {}", this.channelRepository.size());
 

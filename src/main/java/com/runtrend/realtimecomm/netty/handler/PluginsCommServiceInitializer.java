@@ -30,15 +30,17 @@ public class PluginsCommServiceInitializer extends ChannelInitializer<SocketChan
     private final PluginCommServiceHandler pluginCommServiceHandler;
     private final SimpleChatServerHandler simpleChatServerHandler;
 
+
     @Override
     protected void initChannel(SocketChannel socketChannel) throws Exception {
         ChannelPipeline pipeline = socketChannel.pipeline();
 
         pipeline.addLast(new IdleStateHandler(50, 0, 0, TimeUnit.SECONDS));
-        pipeline.addLast(new ServerIdleStateTrigger());
+//        pipeline.addLast(new ServerIdleStateTrigger());
         pipeline.addLast(new HttpRequestDecoder());
         pipeline.addLast(new HttpResponseEncoder());
         pipeline.addLast(new HttpObjectAggregator(1024*1024));
+        pipeline.addLast(new ServerIdleStateTrigger());
         pipeline.addLast(pluginCommServiceHandler);
 
     }
