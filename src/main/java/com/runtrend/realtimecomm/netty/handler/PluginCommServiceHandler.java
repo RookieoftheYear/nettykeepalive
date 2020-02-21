@@ -9,6 +9,7 @@ import io.netty.channel.*;
 import io.netty.handler.codec.http.FullHttpRequest;
 import io.netty.handler.codec.http.FullHttpResponse;
 import io.netty.handler.codec.http.HttpMethod;
+import io.netty.util.AttributeKey;
 import io.netty.util.CharsetUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -30,29 +31,18 @@ import java.util.Optional;
 @Slf4j
 @RequiredArgsConstructor
 @ChannelHandler.Sharable
-
 public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHttpRequest> {
 
-    private final ChannelRepository channelRepository;
 
+    private final AttributeKey<String> attributeKey = AttributeKey.valueOf("MAC");
+    private final ChannelRepository channelRepository;
     private final AccountService accountService;
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         Assert.notNull(this.channelRepository, "[Assertion failed] - ChannelRepository is required; it must not be null");
-
         ctx.fireChannelActive();
-
-
     }
-
-
-    //    @Override
-//    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
-//        log.debug("=== channelReadComplete Invoked ===");
-//        ctx.channel().read();
-//    }
-
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, FullHttpRequest fullHttpRequest) throws Exception {
 
@@ -71,23 +61,13 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                 .orElseGet(() -> communicationProcess(ctx, fullHttpRequest));
     }
 
-//    @Override
-//    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-//        FullHttpRequest a = (FullHttpRequest) msg;
-//        String header = a.headers().toString();
-//        log.debug("==== Message is Passing to Read0, Header is {} ===",header);
-//        channelRead0(ctx, (FullHttpRequest) msg);
-//    }
+
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
         Assert.notNull(this.channelRepository, "[Assertion failed] - ChannelRepository is required; it must not be null");
         Assert.notNull(ctx, "[Assertion failed] - ChannelHandlerContext is required; it must not be null");
-
-//        String channelKey = ctx.channel().remoteAddress().toString();
-        int remove = this.channelRepository.remove(ctx.channel());
-//
-//        log.debug("{} Disconnected: Remove {} Gateway",channelKey,remove);
+        this.channelRepository.remove(ctx.channel().attr(attributeKey).get());
     }
 
     @Override
@@ -164,6 +144,7 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                                     y.close().addListener(future -> {
 
                                         if (future.isSuccess()) {
+                                            ctx.channel().attr(attributeKey).setIfAbsent(mac);
                                             channelRepository.put(mac, ctx.channel());
                                             log.debug("=== {} Update Successfully ===", mac);
                                             reply.append(MessageFormat.format("=== {0}  Update Successfully ===", mac));
@@ -181,6 +162,7 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                             })
                             .orElseGet(() -> {
 
+                                ctx.channel().attr(attributeKey).setIfAbsent(mac);
                                 channelRepository.put(mac, ctx.channel());
                                 log.debug("=== {} Register Successfully ===", mac);
                                 accountService.sendMessage(mac);
@@ -193,8 +175,6 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                 .orElseGet(() -> {
                     Optional.ofNullable(channelRepository.get(mac))
                             .map(channel -> {
-
-
                                 channel.writeAndFlush(FullHttpUtiles.stringToHttp(content.toString(CharsetUtil.UTF_8)))
                                         .addListener((ChannelFutureListener) future -> {
                                             if (future.isSuccess()) {
