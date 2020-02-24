@@ -61,13 +61,27 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                 .orElseGet(() -> communicationProcess(ctx, fullHttpRequest));
     }
 
-
-
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
         Assert.notNull(this.channelRepository, "[Assertion failed] - ChannelRepository is required; it must not be null");
         Assert.notNull(ctx, "[Assertion failed] - ChannelHandlerContext is required; it must not be null");
-        this.channelRepository.remove(ctx.channel().attr(attributeKey).get());
+
+        String macOfGateway =
+            Optional.ofNullable(ctx.channel().attr(attributeKey).get()).orElseGet(() -> {return "";});
+        if (!macOfGateway.equals("")) {
+            boolean remove = this.channelRepository.remove(macOfGateway, ctx.channel());
+            log.debug("MAC:{} disconnected, remove Gateway returns {}", macOfGateway, remove);
+        } else {
+            // log.debug("MAC:{} disconnected, it is NOT a  Gateway.", macOfGateway);
+        }
+
+        try {
+            super.channelInactive(ctx);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return;
     }
 
     @Override
@@ -141,18 +155,18 @@ public class PluginCommServiceHandler extends SimpleChannelInboundHandler<FullHt
                                 } else {
                                     //在连接池里，通道inactive或者是注册操作
                                     log.debug("=== {} is Updating: The Operation Type : {} , Alive Status : {} ===", mac,opType,y.isActive());
+                                    ctx.channel().attr(attributeKey).setIfAbsent(mac);
+                                    channelRepository.put(mac, ctx.channel());
+                                    reply.append(MessageFormat.format("=== {0}  Update Successfully ===", mac));
                                     y.close().addListener(future -> {
 
                                         if (future.isSuccess()) {
-                                            ctx.channel().attr(attributeKey).setIfAbsent(mac);
-                                            channelRepository.put(mac, ctx.channel());
                                             log.debug("=== {} Update Successfully ===", mac);
-                                            reply.append(MessageFormat.format("=== {0}  Update Successfully ===", mac));
                                         } else {
                                             String message = future.cause().getMessage();
-                                            log.debug("=== {} Update Fail ===", mac);
-                                            reply.append(MessageFormat.format("=== {0}  Update Fail :", mac))
-                                                    .append(message).append(" ===");
+                                            log.debug("=== {} Update, failed to close old connection: {} ===", mac, message);
+                                            // reply.append(MessageFormat.format("=== {0}  Update Fail :", mac))
+                                            //       .append(message).append(" ===");
                                         }
                                     });
 

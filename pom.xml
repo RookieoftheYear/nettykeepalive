@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.runtrend</groupId>
     <artifactId>realtimecomm</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>realtimecomm</name>
     <description>Netty Project</description>
 
@@ -86,7 +86,7 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>RELEASE</version>
+            <version>19.0.0</version>
         </dependency>
         <!--redis-->
         <dependency>

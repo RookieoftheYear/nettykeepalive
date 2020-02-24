@@ -29,6 +29,13 @@ public class ChannelRepository {
         this.channelCache.remove(key);
     }
 
+    public boolean remove(String key, Channel val) {
+        if (key.equals(""))
+            return false;
+
+        return this.channelCache.remove(key, val);
+    }
+
     public int size() {
         return channelCache.size();
     }

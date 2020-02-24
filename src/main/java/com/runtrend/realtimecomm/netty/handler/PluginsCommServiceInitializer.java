@@ -35,11 +35,11 @@ public class PluginsCommServiceInitializer extends ChannelInitializer<SocketChan
     protected void initChannel(SocketChannel socketChannel) throws Exception {
         ChannelPipeline pipeline = socketChannel.pipeline();
 
-        pipeline.addLast(new IdleStateHandler(50, 0, 0, TimeUnit.SECONDS));
+        pipeline.addLast(new IdleStateHandlerWrapper(50, 0, 0, TimeUnit.SECONDS));
 //        pipeline.addLast(new ServerIdleStateTrigger());
         pipeline.addLast(new HttpRequestDecoder());
         pipeline.addLast(new HttpResponseEncoder());
-        pipeline.addLast(new HttpObjectAggregator(1024*1024));
+        pipeline.addLast(new HttpObjectAggregator(1024*100));
         pipeline.addLast(new ServerIdleStateTrigger());
         pipeline.addLast(pluginCommServiceHandler);
 
